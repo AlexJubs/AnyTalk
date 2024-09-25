@@ -1,4 +1,4 @@
-I worked on this project during my last year at the university of Waterloo
+I worked on this project during my last year at the university of Waterloo. This was hacked together in many ways, and does not exactly adhere to a scalable design. 
 
 # Setup
 
@@ -20,7 +20,10 @@ I worked on this project during my last year at the university of Waterloo
 
 ### Common Errors when trying `npx react-native run-ios`
 
-1. error Failed to load configuration of your project.
+0. missing gcp creds.
+- ... Set up a gcp account with appropriate auth scopes, and add it to a json, save it in the FE folder
+
+2. error Failed to load configuration of your project.
 - run `npm install --force` in root of project
 
 2. error Failed to build iOS project. ran "xcodebuild" command but it exited with error code 65
