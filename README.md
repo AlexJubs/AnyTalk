@@ -1,3 +1,5 @@
+I worked on this project during my last year at the university of Waterloo
+
 # Setup
 
 1. Clone this repo
